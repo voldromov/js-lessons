@@ -28,6 +28,7 @@ const answers = []
 // answers[2] = prompt('Скільки вам років', '') 
  
 console.log(typeof(null))
+alert
 
 
 
