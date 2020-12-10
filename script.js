@@ -1,34 +1,19 @@
-// "use strict;"
+const numberOfFilms =  prompt('Сколько фильмов вы уже посмотрели', '');
 
-// // // // // let number = 5;
-// // // // // const leftBorderWith = 1;
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+}
 
-// // // // // number = 10;
-// // // // // console.log(number)
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
 
-// // // // const obj = {
-// // // //     name: 'John',
-// // // //     age: 25,
-// // // //     isMarried: false
-// // // // };
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-// // // // console.log(obj."name")
- 
-// // // alert("Hello")
-
-// // const result = confirm('Are you here?')
-// // console.log(result) 
-
-// const answer = prompt("Вам є 18?", "18");
-// console.log(typeof(answer));
-
-const answers = []
-// answers[0] = prompt('Як вас звати', '')
-// answers[1] = prompt('Як вас фімілія', '')
-// answers[2] = prompt('Скільки вам років', '') 
- 
-console.log(typeof(null))
-alert
-
-
-
+console.log(personalMovieDB);   
